@@ -1,6 +1,5 @@
-# Проект: hexColors [Ссылка на github.io](https://github.com/KozhevnikovAlexey/__/)
+# Проект: hexColors [Ссылка на github.io](https://github.com/KozhevnikovAlexey/hexColors)
 
-# Проект: hexColors
 ## Результат работы дома в праздники
 
 ### Описание:
@@ -21,7 +20,8 @@ Flexbox,Grid Layout, Positioning Elements, Animation and Transform using CSS, If
 ### Инструкция по установке:
 
 ```
-git clone https://github.com/KozhevnikovAlexey/__/
+git clone https://github.com/KozhevnikovAlexey/hexColors
+
 ```
 
 ### *Возможня доработка проекта*
