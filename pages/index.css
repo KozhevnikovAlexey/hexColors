@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Ubuntu:wght@300;700&display=swap');
+.body {
+    margin: 0;
+    padding: 0;
+    font-family: "Comfortaa", cursive;
+}
+
+.header__menubar {
+    /* border: 1px solid black; */
+    margin: auto;
+    margin-top: 20px;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__menubar_logo-icon {
+    width: 32px;
+    box-sizing: border-box;
+    width: 32px;
+    height: 32px;
+    border: 1px solid #1c1c1c;
+    border-radius: 32px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.footer {
+    /* border: 1px solid black; */
+    margin: auto;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    /* border: 1px solid black; */
+    width: 95%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hex-colors {
+    /* border: 1px solid black; */
+    text-align: center
+}
+
+.hex-colors h1 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    -ms-animation: colorchange 5s infinite alternate;
+    -moz-animation: colorchange 5s infinite alternate;
+    -o-animation: colorchange 5s infinite alternate;
+    animation: colorchange 5s infinite alternate;
+}
+
+.hex-colors h2 {
+    /* border: 1px solid black; */
+    font-size: 2rem;
+    margin-top: 15%;
+}
+
+@-ms-keyframes colorchange {
+    0% {
+        color: #ffffff;
+    }
+    20% {
+        color: #cccccc;
+    }
+    40% {
+        color: #999999;
+    }
+    60% {
+        color: #666666;
+    }
+    80% {
+        color: #333333;
+    }
+    100% {
+        color: #000000;
+    }
+}
+
+@-moz-keyframes colorchange {
+    0% {
+        color: #ffffff;
+    }
+    20% {
+        color: #cccccc;
+    }
+    40% {
+        color: #999999;
+    }
+    60% {
+        color: #666666;
+    }
+    80% {
+        color: #333333;
+    }
+    100% {
+        color: #000000;
+    }
+}
+
+@-o-keyframes colorchange {
+    0% {
+        color: #ffffff;
+    }
+    20% {
+        color: #cccccc;
+    }
+    40% {
+        color: #999999;
+    }
+    60% {
+        color: #666666;
+    }
+    80% {
+        color: #333333;
+    }
+    100% {
+        color: #000000;
+    }
+}
+
+@keyframes colorchange {
+    0% {
+        color: #ffffff;
+    }
+    20% {
+        color: #cccccc;
+    }
+    40% {
+        color: #999999;
+    }
+    60% {
+        color: #666666;
+    }
+    80% {
+        color: #333333;
+    }
+    100% {
+        color: #ffffff;
+    }
+}
+
+@media (max-width:480px) {
+    .hex-colors h1 {
+        font-size: 1.5rem;
+    }
+    .hex-colors h2 {
+        font-size: 1.5rem;
+    }
+}
